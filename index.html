@@ -9,27 +9,134 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- Link Swiper's CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
     </head>
     <body>
         <!-- Navbar -->
-         <header>
-            <a href="#" class="logo"><i class='bx bxs-basket'></i>FruitsHub</a>
+        <header>
+            <a href="#" class="logo">
+                <i class='bx bxs-basket'></i>FruitsHub</a>
             <div class="bx bx-menu" id="menu-icon"></div>
             <!-- nav list -->
-             <ul class="navbar">
-                <li><a href="#home" class="home-active">Home</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#Customers">Customers</a></li>
-             </ul>
-             <div class="profile">
+            <ul class="navbar">
+                <li>
+                    <a href="#home" class="home-active">Home</a>
+                </li>
+                <li>
+                    <a href="#categories">Categories</a>
+                </li>
+                <li>
+                    <a href="#products">Products</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#Customers">Customers</a>
+                </li>
+            </ul>
+            <div class="profile">
                 <img src="img/profile.jpg" alt="Tousif">
                 <span>Tousif mohaimen</span>
                 <i class="bx bx-caret-down"></i>
-             </div>
-         </header>
+            </div>
+        </header>
 
-        <script></script>
+        <!-- Home -->
+        <section class="home swiper" id="home">
+            <div class="swiper-wrapper">
+                <!-- slide 1 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                        <span>We are FruitsHub</span>
+                        <h1>Choose FruitsHub<br>for the best<br>healthy cart</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                    <img src="img/home3.png" alt="">
+                </div>
+                <!-- slide 2 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                        <span>We are FruitsHub</span>
+                        <h1>Choose FruitsHub<br>for the best<br>healthy cart</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                    <img src="img/home1.png" alt="">
+                </div>
+                <!-- slide 3 -->
+                <div class="swiper-slide container">
+                    <div class="home-text">
+                        <span>We are FruitsHub</span>
+                        <h1>Choose FruitsHub<br>for the best<br>healthy cart</h1>
+                        <a href="#" class="btn">Shop Now<i class="bx bx-right-arrow-alt"></i>
+                        </a>
+                    </div>
+                    <img src="img/home2.png" alt="">
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+
+        <!-- categories -->
+        <section class="categories" id="categories">
+            <div class="heading">
+                <h1>Browse our Hottest
+                    <br>
+                    <span>Categories</span></h1>
+                <a href="#" class="btn">See All<i class="bx bx-right-arrow-alt"></i>
+                </a>
+            </div>
+            <!-- Unified Categories Container -->
+            <div class="categories-container">
+                <!-- Box 1 -->
+                <div class="box box1">
+                    <img src="img/fruits.png" alt="">
+                    <h2>Fruits</h2>
+                    <span>22 Items</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                </div>
+                <!-- Box 2 -->
+                <div class="box box2">
+                    <img src="img/vegetables.png" alt="">
+                    <h2>Vegetables</h2>
+                    <span>22 Items</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                </div>
+                <!-- Box 3 -->
+                <div class="box box3">
+                    <img src="img/juices.png" alt="">
+                    <h2>Juices</h2>
+                    <span>22 Items</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                </div>
+                <!-- Box 4 -->
+                <div class="box box4">
+                    <img src="img/nuts.png" alt="">
+                    <h2>Nuts</h2>
+                    <span>22 Items</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                </div>
+                <!-- Box 5 -->
+                <div class="box box5">
+                    <img src="img/spices.png" alt="">
+                    <h2>Spices</h2>
+                    <span>22 Items</span>
+                    <i class="bx bx-right-arrow-alt"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="script.js"></script>
+
     </body>
 </html>
